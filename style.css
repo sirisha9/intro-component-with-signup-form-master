@@ -121,3 +121,44 @@ form #firstError,#lastError,#emailError,#pwdError{
     text-align: right;
     color: red;
 }
+
+@media only screen  and (max-width : 400px){
+    .container{
+       padding: 1rem;
+       display: inline-block;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       width: fit-content;
+    }
+    .main-left{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        padding: 12px;
+    }
+    .main-left #para{
+        display: block;
+    }
+    .main-right{
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .main-right form input,#submit{
+        width: 15rem;
+        margin-left: 10%;
+    }
+    
+    .main-right form{
+        margin-left: 10%;
+        width: 20rem;
+    }
+   .main-right #try{
+    width: 20rem;
+    margin-left: 10%;
+    font-size: small;
+   }
+    
+}
